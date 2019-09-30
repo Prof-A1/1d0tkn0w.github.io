@@ -42,19 +42,9 @@ with mss.mss() as sct:
         med1 = pixel_colour(monitor["width"], 35, 120)
         bottom1 = pixel_colour(monitor["width"], 35, 140)
         colour = pixel_colour(1, 0, 1)
-        if colour < 700:
-            if wasblack is False:
-                pass
-                #monitor["top"] = monitor["top"] - 10
-            wasblack = True
-        else:
-            if wasblack:
-                pass
-                #monitor["top"] = monitor["top"] + 10
-            wasblack = False
+
         if top != colour or med != colour or bottom != colour or top1 != colour or med1 != colour or bottom1 != colour:
             keyboardy.press(Key.space)
-            #print(top,top1,med,med1,bottom,bottom1)
             while True:
                 time.sleep(0.014)
                 if True:
