@@ -71,3 +71,6 @@ with mss.mss() as sct:
                 break
         if keyboard.is_pressed("q"):
             quit()
+            
+# A safety measure in the code is that you can hold press q after the bot has lost to quit the program so it doesn't press random keys
+# on the machine
