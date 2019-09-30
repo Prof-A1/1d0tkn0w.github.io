@@ -71,3 +71,5 @@ with mss.mss() as sct:
                 break
         if keyboard.is_pressed("q"):
             quit()
+
+# Just implemented this code and got a high score of 26990 points on the chrome dino game            
