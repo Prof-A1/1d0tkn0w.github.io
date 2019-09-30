@@ -71,3 +71,6 @@ with mss.mss() as sct:
                 break
         if keyboard.is_pressed("q"):
             quit()
+
+# I have just noticed that to run the bot with the hard coded values you must minimise the bookmarks tab at the top of the chrome browser
+# This is done with the windows shortcut ctrl-shift-b when active in the chrome application
