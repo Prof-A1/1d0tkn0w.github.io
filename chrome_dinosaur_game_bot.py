@@ -1,9 +1,12 @@
+# Currently only works on 1080 by 1920 screen resolution as pixel values are hard coded
+
 import mss
 from PIL import Image
 import time
 import keyboard
 from pynput.keyboard import Key, Controller
 import pyautogui as gui
+
 keyboardy = Controller()
 gui.hotkey("alt", "tab")
 time.sleep(1)
