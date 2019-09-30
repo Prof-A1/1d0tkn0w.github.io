@@ -71,3 +71,6 @@ with mss.mss() as sct:
                 break
         if keyboard.is_pressed("q"):
             quit()
+           
+# The average score I am achieving consistently is around 4000 to 5000 points. The bot usually fails when two cacti come in
+# abnormal sucsession
